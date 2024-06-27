@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartsInfoWebApi.Models
+namespace PartsInfoWebApi.core.Models
 {
     public class ThreeLetterCode
     {

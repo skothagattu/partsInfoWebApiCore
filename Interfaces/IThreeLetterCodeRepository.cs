@@ -1,4 +1,4 @@
-﻿using PartsInfoWebApi.Models;
+﻿using PartsInfoWebApi.core.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
