@@ -9,7 +9,7 @@ namespace PartsInfoWebApi.core.Models
         [Key]
         [Column("ID")]
         [StringLength(50)]
-        public string ID { get; set; }
+        public int ID { get; set; }
 
         [Column("DESCRIPTION")]
         [StringLength(50)]

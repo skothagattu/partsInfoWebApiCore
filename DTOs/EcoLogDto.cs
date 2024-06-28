@@ -4,17 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartsInfoWebApi.core.DTOs
+namespace PartsInfoWebApi.Core.DTOs
 {
-    public class DWGnumbersDto
+    public class EcoLogDto
     {
-        public string PREFIX { get; set; }
         public int NO { get; set; }
         public string DESC { get; set; }
         public string MODEL { get; set; }
-        public string ORIG { get; set; }
-        public string DATE { get; set; }
+        public string ECR { get; set; }
+        public string DATE_LOG { get; set; }
+        public string NAME { get; set; }
+        public string DATE_REL { get; set; }
         public int Position { get; set; }  // New Property
         public int Total { get; set; }  // New Property
     }
 }
+

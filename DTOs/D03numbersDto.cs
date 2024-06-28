@@ -8,7 +8,7 @@ namespace PartsInfoWebApi.Core.DTOs
 {
     public class D03numbersDto
     {
-        public string ID { get; set; }
+        public int ID { get; set; }
         public string DESCRIPTION { get; set; }
         public string BL_NUMBER { get; set; }
         public string PANEL_DWG { get; set; }

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PartsInfoWebApi.core.DTOs
+namespace PartsInfoWebApi.Core.DTOs
 {
-    public class DWGnumbersDto
+    public class CabAireDWGNumberDto
     {
-        public string PREFIX { get; set; }
         public int NO { get; set; }
+        public string PREFIX { get; set; }
         public string DESC { get; set; }
         public string MODEL { get; set; }
         public string ORIG { get; set; }

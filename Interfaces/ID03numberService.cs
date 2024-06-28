@@ -10,8 +10,8 @@ namespace PartsInfoWebApi.Core.Interfaces
         Task<IEnumerable<D03numbersDto>> SearchAsync(string searchTerm);
         Task<D03numbersDto> GetFirstAsync();
         Task<D03numbersDto> GetLastAsync();
-        Task<D03numbersDto> GetNextAsync(string currentID);
-        Task<D03numbersDto> GetPreviousAsync(string currentID);
+        Task<D03numbersDto> GetNextAsync(int currentID);
+        Task<D03numbersDto> GetPreviousAsync(int currentID);
         Task<IEnumerable<D03numbersDto>> GetAllSortedAsync();
         Task<(bool success, List<string> changedColumns)> UpdateAsync(D03numbersDto dto);
         Task SetPositionInformation(IEnumerable<D03numbersDto> dtos);

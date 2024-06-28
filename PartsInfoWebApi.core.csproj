@@ -13,8 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Models\CabAireDWGNumbers.cs" />
     <Compile Include="Models\D03numbers.cs" />
     <Compile Include="Models\DWGnumbers.cs" />
+    <Compile Include="Models\EcoLog.cs" />
+    <Compile Include="Models\EcrLog.cs" />
     <Compile Include="Models\SubLog.cs" />
     <Compile Include="Models\ThreeLetterCode.cs" />
   </ItemGroup>

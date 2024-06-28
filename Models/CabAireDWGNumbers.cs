@@ -1,10 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace PartsInfoWebApi.Core.Models
+namespace PartsInfoWebApi.core.Models
 {
-    [Table("DWGNUMBERS")]
-    public class DWGnumbers
+    [Table("CabAireDWGNumbers")]
+    public class CabAireDWGNumber
     {
         [Key]
         public int NO { get; set; }

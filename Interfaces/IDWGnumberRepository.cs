@@ -10,8 +10,8 @@ namespace PartsInfoWebApi.Core.Interfaces
         Task<IEnumerable<DWGnumbers>> SearchAsync(string searchTerm);
         Task<DWGnumbers> GetFirstAsync();
         Task<DWGnumbers> GetLastAsync();
-        Task<DWGnumbers> GetNextAsync(string currentNO);
-        Task<DWGnumbers> GetPreviousAsync(string currentNO);
+        Task<DWGnumbers> GetNextAsync(int currentNO);
+        Task<DWGnumbers> GetPreviousAsync(int currentNO);
         Task<IEnumerable<DWGnumbers>> GetAllSortedAsync();
     }
 }
