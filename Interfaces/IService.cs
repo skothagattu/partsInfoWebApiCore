@@ -11,7 +11,7 @@ namespace PartsInfoWebApi.Interfaces
         Task<IEnumerable<TDto>> GetAllAsync();
         Task<TDto> GetByIdAsync(object id);
         Task AddAsync(TDto dto);
-        Task UpdateAsync(TDto dto);
+        Task<(bool success, List<string> changedColumns, string error)> UpdateAsync(TDto dto);
         Task DeleteAsync(object id);
     }
 }

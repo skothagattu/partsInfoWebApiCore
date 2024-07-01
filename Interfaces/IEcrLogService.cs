@@ -13,8 +13,9 @@ namespace PartsInfoWebApi.Core.Interfaces
         Task<EcrLogDto> GetNextAsync(int currentNO);
         Task<EcrLogDto> GetPreviousAsync(int currentNO);
         Task<IEnumerable<EcrLogDto>> GetAllSortedAsync();
-        Task<(bool success, List<string> changedColumns)> UpdateAsync(EcrLogDto dto);
+        Task<(bool success, List<string> changedColumns, string error)> AddOrUpdateAsync(EcrLogDto dto);
         Task SetPositionInformation(IEnumerable<EcrLogDto> dtos);
         Task SetPositionInformation(EcrLogDto dto);
+        Task<(bool success, List<string> changedColumns, string error)> UpdateAsync(EcrLogDto dto);
     }
 }

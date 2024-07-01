@@ -15,6 +15,7 @@ namespace PartsInfoWebApi.Core.Interfaces
         Task<IEnumerable<EcoLogDto>> GetAllSortedAsync();
         Task SetPositionInformation(IEnumerable<EcoLogDto> dtos);
         Task SetPositionInformation(EcoLogDto dto);
-        Task<(bool success, List<string> changedColumns)> UpdateAsync(EcoLogDto dto);
+        Task<(bool success, List<string> changedColumns, string error)> AddOrUpdateAsync(EcoLogDto dto);
+        Task<(bool success, List<string> changedColumns, string error)> UpdateAsync(EcoLogDto dto);
     }
 }
