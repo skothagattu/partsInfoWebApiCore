@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PartsInfoWebApi.core.Models
 {
-    [Table("CabAireDWGNumbers")]
+    [Table("CABAIREDWGNUMBERS")]
     public class CabAireDWGNumber
     {
         [Key]
