@@ -17,6 +17,7 @@
     <Compile Include="Models\D03numbers.cs" />
     <Compile Include="Models\DesignServices\CMI_DESC.cs" />
     <Compile Include="Models\DesignServices\CMI_VENDOR.cs" />
+    <Compile Include="Models\DesignServices\StdPartIndex.cs" />
     <Compile Include="Models\DWGnumbers.cs" />
     <Compile Include="Models\EcoLog.cs" />
     <Compile Include="Models\EcrLog.cs" />

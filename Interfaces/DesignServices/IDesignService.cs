@@ -19,5 +19,8 @@ namespace PartsInfoWebApi.core.Interfaces.DesignServices
 
         Task<IEnumerable<CMIDescVendorDto>> GetCMIDescVendorByDateAsync(DateTime date, int pageIndex, int pageSize);
         Task<int> GetTotalCountByDateAsync(DateTime date);
+
+        Task<IEnumerable<CMIDescVendorDto>> GetCMIDescVendorByDateAsyncMfgNo(DateTime date, int pageIndex, int pageSize);
+        Task<int> GetTotalCountByDateAsyncMfgNo(DateTime date);
     }
 }
